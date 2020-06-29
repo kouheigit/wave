@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+#myid{
+	position:absolute;
+	margin-top:-850px;
+	margin-left:10px;
+}
+
+#secondid{
+	position:absolute;
+	margin-top:-850px;
+	margin-left:350px;
+}
+
+h1{
+padding: 0 .4em .1em;
+position:absolute;
+margin-top:30px;
+margin-left:150px;
+}
+h1::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
+  width: 100%;
+  height: 10px;
+  background-color: #b6f0fc;
+}
+
+h2 {
+ font-size: 120%;
+ /* color: #6594e0;*/
+  border-bottom: dashed 2px #6594e0;
+}
+
+p{
+   position: absolute;
+   margin:130px;
+   margin-left:150px;
+}
+
+pre{
+ position: absolute;
+ margin:180px;
+ font-size:20px;
+ margin-left:160px;
+}
+
+a{
+   text-decoration: none;
+}
+
+
+.mybox{
+	border: 1px solid #1dbfbf;	/* 線の太さ・種類・色 */
+	border-radius: 5px;
+	padding: 45px 10px 10px 10px;	/* 内側の余白 上・右・左・下 */
+	position: relative;
+	z-index: 0;
+	width:250px;
+        height:1000px;
+}
+.mybox:before{
+	background-color: #1dbfbf;	/* タイトル部分背景色 */
+	border-radius: 5px 5px 0px 0px;
+	color: #fff;	/* タイトル部分文字色 */
+	content: '　 　　   　最新ニュース一覧';
+	height: 25px;	/* タイトル部分高さ */
+	padding: 5px 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+.mybox:after {
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+	border-color: #1dbfbf transparent transparent transparent;	/* 吹き出し三角部分の色 */
+	content: "";
+	position: absolute;
+	top: 35px;
+	left: 10px;
+	width: 0px;
+	height: 0px;
+	z-index: 1;
+}
+
+
+.secondbox1{
+        border: 1px solid #0000cd;      /* 線の太さ・種類・色 */
+        border-radius: 5px;
+        padding: 45px 10px 10px 10px;   /* 内側の余白 上・右・左・下 */
+        position: relative;
+        z-index: 0;
+        width:880px;
+	height:1400px;/* 記事本文の縦幅*/
+}
+.secondbox1:before{
+         background-color: #0000cd;      /* タイトル部分背景色 */
+        border-radius: 5px 5px 0px 0px;
+        color: #0000cd;    /* タイトル部分文字色 */
+        height: 25px;   /* タイトル部分高さ */
+	content: '　 　　   　 記事一覧';
+        padding: 5px 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+
+}
+

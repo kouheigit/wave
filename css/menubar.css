@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/* position design*/
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0000cd;
+}
+li {
+	float: left;
+	border-right: 1px solid #bbbbbb;
+}
+li:last-child {
+	border-right: none;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 125px;/*メニューバーの欄の大きさ*/
+	text-decoration: none;
+}
+li a:hover:not(.after) {
+	background-color: #ffd700;
+}
+.after {
+	background-color: #ffff00;
+}
+
+
+
+/*positon css*/
+
+#menubar{
+position:absolute;
+margin-top:60px;
+}
+
+#menubar1{
+position:absolute;
+margin-top:0.44px;
+margin-left:12px;
+}
+
+
+
+
+
+
+
+
+
+
+

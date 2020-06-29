@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+header{
+text-align: center;
+color:#ffffff;
+position:absolute;
+margin-top:-10px;
+margin-left:-10px;
+/*margin-left:550px;*/
+width:110%;
+height:10%;
+min-width:1000px;
+background-color:#1bbcc2;
+}
+
+header h1{
+margin-top:10px;
+font-size:35px;
+}
+
+header h2{
+font-size:50px;
+}

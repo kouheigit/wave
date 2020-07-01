@@ -1,7 +1,7 @@
 <html>
  <head>
    <meta charset="utf-8">
-   <link href="css/mobilemain.css" rel="stylesheet"> 
+   <link href="css/mobilemain.css" rel="stylesheet">
  </head>
   <body>
   <header>

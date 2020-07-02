@@ -31,9 +31,9 @@
     <nav class="drawer-nav" role="navigation">
     <ul class="drawer-menu">
       <li><a class="drawer-brand" href="#">MENU</a></li>
-　　　 <li><a class="drawer-menu-item" href="index.php">メインページ</a></li>
-      <li><a class="drawer-menu-item" href="service.php">サービス</a></li>
-      <li><a class="drawer-menu-item" href="map.php">アクセス</a></li>
+　　　 <li><a class="drawer-menu-item" href="#">メインページ</a></li>
+      <li><a class="drawer-menu-item" href="#">サービス</a></li>
+      <li><a class="drawer-menu-item" href="#">アクセス</a></li>
     </ul>
   </nav>
    <!--drawer-->
